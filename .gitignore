@@ -4,6 +4,8 @@
 /prd/
 /node_modules/
 
+/.vscode/
+
 # temp ignore
 *.log
 *.cache
