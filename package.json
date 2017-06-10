@@ -1,0 +1,31 @@
+{
+  "name": "dika-site-fe",
+  "version": "0.0.1",
+  "description": "嘀咔科技官网-前端",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd .. && hii start --no-hot-reload",
+    "build": "hii min",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dika",
+    "fe",
+    "react",
+    "antd"
+  ],
+  "dependencies": {
+    "antd": "^2.10.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "reqwest": "^2.0.5"
+  },
+  "devDependencies": {},
+  "author": "dika",
+  "license": "ISC"
+}

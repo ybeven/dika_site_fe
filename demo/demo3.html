@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>改变state</title>
+</head>
+<body>
+    <p style="color: red">改变state</p>
+    <div id="root"></div>
+    <a href="./demo4.html">跳到demo4</a>
+
+    <script src="../node_modules/react/dist/react.js"></script>
+    <script src="../node_modules/react-dom/dist/react-dom.js"></script>
+    <script src="./babel-core.min.js"></script>
+
+    <script src="./Demo3Component.jsx" type="text/babel"></script>
+    <script type="text/babel">
+        ReactDOM.render(
+            <Demo3Component text="Demo3 渲染好了"></Demo3Component>,
+            document.getElementById('root')
+        );
+    </script>
+</body>
+</html>

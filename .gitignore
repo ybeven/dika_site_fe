@@ -1,0 +1,23 @@
+# qzz/fekit/grunt
+/ver/
+/dev/
+/prd/
+/node_modules/
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# package ignore (optional)
+# *.jar
+# *.war
+# *.zip
+# *.tar
+# *.tar.gz

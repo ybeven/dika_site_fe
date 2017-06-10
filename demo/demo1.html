@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>简单dom渲染</title>
+</head>
+<body>
+    <p>简单dom渲染</p>
+    <div id="root"></div>
+    <a href="./demo2.html">跳到demo2</a>
+
+    <script src="../node_modules/react/dist/react.min.js"></script>
+    <script src="../node_modules/react-dom/dist/react-dom.min.js"></script>
+    <script src="./babel-core.min.js"></script>
+
+    <script type="text/babel">
+        ReactDOM.render(
+            <h1>Demo1 渲染好了</h1>,
+            document.getElementById('root')
+        );
+    </script>
+</body>
+</html>
